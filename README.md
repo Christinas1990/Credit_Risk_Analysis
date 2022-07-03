@@ -61,6 +61,8 @@ The purpose of the anaylsis is to evaulate if the machine learning models are ac
 * Precision Low Risk Loan score is 100% with Recall score of 94%
 * Overall precision score of 99% and Recall score of 94%
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)`
+## Summary
+
+Comparing six models, as per precision scores they have very similar balanced accuracy score of range of 57% - 67% except for ensemble classifier. 
+It as a balanced accuracy score of 93%. Which indicates that I can recommand ensemble classifier model to predict the credit risks. Also, it has the highest recall scores for both low and high risk loans, meaning that it has the lowest false positive occurrences. Overall, Undersampling model is the least suitable model for the analyis and ensemble models is the best to use to predict the credit risk. 
+
